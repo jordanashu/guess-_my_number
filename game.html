@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+
+    <style>
+      #top {
+        font-size: 60px;
+        color: coral;
+        text-align: center;
+      }
+      body {
+        background-color: black;
+      }
+      .m {
+        margin-top: 150px;
+        text-align: center;
+      }
+
+      .num {
+        padding: 20px;
+      }
+
+      .num:hover {
+        border: 3px solid red;
+      }
+
+      .btn {
+        padding: 20px;
+        color: white;
+        font-size: medium;
+        background-color: green;
+      }
+
+      .btn:hover {
+        background-color: blue;
+        cursor: pointer;
+      }
+
+      .enter {
+        font-size: 40px;
+        color: azure;
+      }
+
+      .msg {
+        color: coral;
+        font-size: xx-large;
+      }
+
+      .score {
+        color: yellow;
+        font-size: xx-large;
+      }
+
+      .re {
+        padding: 20px;
+        color: white;
+        font-size: medium;
+        background-color: blueviolet;
+      }
+
+      .re:hover {
+        background-color: blue;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 id="top">Guess My Number</h1>
+    <hr />
+    <h1 style="text-align: center; color: cyan">From 1 to 10</h1>
+
+    <div class="m">
+      <p class="msg">Start guess</p>
+      <p class="score">score:</p>
+      <h1 class="enter">Enter the number</h1>
+
+      <input type="number" class="num" />
+
+      <button class="btn">Submit</button>
+      <br />
+      <br />
+      <button class="re">Again!</button>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
